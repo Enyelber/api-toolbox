@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { reverseText } = require('./utils/custom')
+const { reverseText, palindrome } = require('./utils/custom')
 
 const express = require('express')
 const app = express()
@@ -21,6 +21,7 @@ app.get('/iecho', (request, response) => {
     resp = {
       codigo: 200,
       text: reverseText(text),
+      palindrome: palindrome(text),
     }
     return response.json(resp)
   } else {

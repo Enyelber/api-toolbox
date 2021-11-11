@@ -2,4 +2,8 @@ const reverseText = (str) => {
   return str.split('').reverse().join('')
 }
 
-module.exports = { reverseText }
+const palindrome = (str) => {
+  return str.split('').reverse().join('') === str
+}
+
+module.exports = { reverseText, palindrome }
