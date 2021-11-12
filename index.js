@@ -13,7 +13,7 @@ app.get('/', (request, response) => {
   response.send('API TOOLBOX!')
 })
 
-// ? Enviar un Texto y Recibirlo al reves
+// ? Send a Text and Receive it in reverse
 app.get('/iecho', (request, response) => {
   const text = request.query.text
 

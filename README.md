@@ -1,20 +1,20 @@
 # API TOOLBOX
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_API REST que consiste en recibir una cadena de caracteres y devolver la cadena al revés y determina si es un Palindrome, esta api correra en el puerto 3001_
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Clona o Descarga el repositorio, instala las dependencias necesarias para el proyecto._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+```
+  npm install
+```
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Se ha utilizado las siguientes dependencias, se dejara los comandos utilizados_
 
 ```
-  npm init -y
-
   npm install express
   npm install eslint -D
   npm install standard -D
@@ -23,90 +23,70 @@ _Que cosas necesitas para instalar el software y como instalarlas_
   npm install --save-dev mocha
   npm install chai -D
   npm install supertest -D
-
 ```
 
-### Instalación 🔧
+### Ejecutando el Proyecto 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Una vez intaladas todas las dependencias se tiene los siguientes comandos para correr la API_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Modo DESARROLLO_
 
 ```
-hasta finalizar
+npm run dev
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Modo Produccion_
+
+```
+npm run start
+```
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Se ha realizado unas pruebas utilizando Chai, Mocha y SuperTest_
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Por favor corra el siguiente comando:_
 
 ```
-Da un ejemplo
+npm run test
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+### Analice las pruebas 🔩
 
-_Explica que verifican estas pruebas y por qué_
+_Las pruebas realizadas fueron_
 
 ```
-Da un ejemplo
+* Obtener el texto que se ingresa desde la ruta
+* Enviar una cadena vacía
+* Enviar mensaje y obtener resultado palíndromo
 ```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Herramientas librerias y frameworks utilizadas para crear el proyecto_
 
-- [Node](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-- [NPM](https://maven.apache.org/) - Manejador de dependencias
-- [Visual Studio Code](https://rometools.github.io/rome/) - Usado para generar RSS
+- [Node](https://nodejs.org/en/) - Entorno de ejecución de JavaScript back-end
+- [NPM](https://maven.apache.org/) - node package manager
+- [Express](https://expressjs.com/) - Marco web rápido
+- [Mocha](https://mochajs.org/) - JavaScript test framework
+- [Chai](https://www.chaijs.com/) - JavaScript test framework
+- [SuperTest](https://github.com/visionmedia/supertest#readme) - JavaScript test framework
+- [Visual Studio Code](https://rometools.github.io/rome/) - Code editor
+- [Git](https://git-scm.com/) - version control system
+- [GitHub](https://github/) - version control system Remote
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/enyelber/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/enyelber/) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-## Wiki 📖
+## Autor ✒️
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+- **Enyelber Altube** - _Full Stack Developher_ - [enyelber](https://github.com/enyelber)
 
-## Versionado 📌
+## Gratitud 🎁
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-- **Enyelber Altube** - _Trabajo Inicial_ - [enyelber](https://github.com/enyelber)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-- Comenta a otros sobre este proyecto 📢
-- Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-- Da las gracias públicamente 🤓.
-- etc.
+- a Toolbox por permitir realizar esta prueba 📢
 
 ---
 
-⌨️ con ❤️ por [enyelber](https://github.com/enyelber) 😊
+⌨️ por [enyelber](https://github.com/enyelber) 😊
